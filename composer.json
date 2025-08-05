@@ -1,0 +1,29 @@
+{
+	"name": "ubfr/c5tools",
+	"description": "COUNTER Release 5.x Tools",
+	"type": "library",
+	"homepage": "https://github.com/ubfr/c5tools",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Bernd Oberknapp",
+			"email": "bo@ub.uni-freiburg.de"
+		}
+	],
+	"require": {
+		"php": ">=8.2",
+		"ext-fileinfo": "*",
+		"guzzlehttp/guzzle": "^7.9",
+		"nicebooks/isbn": "^0.4",
+		"phpoffice/phpspreadsheet": "^4.5"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "~3.13",
+		"phpmd/phpmd": "~2.15"
+	},
+	"autoload": {
+		"psr-4": {
+			"ubfr\\c5tools\\": "src"
+		}
+	}
+}
